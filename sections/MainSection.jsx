@@ -1,3 +1,4 @@
+import { CategoryList, DuaList } from "../components";
 import { TopSection } from ".";
 
 const MainSection = () => {
@@ -6,7 +7,7 @@ const MainSection = () => {
       <TopSection />
 
       <div className="flex flex-row gap-2 ">
-        <div className=" w-1/3 h-[80vh] bg-white rounded-2xl flex flex-col items-center">
+        <div className=" w-1/3 h-[80vh] bg-white rounded-2xl flex flex-col ">
           <div className="py-3 w-full bg-primary rounded-t-2xl text-center">
             Categories
           </div>
@@ -32,42 +33,15 @@ const MainSection = () => {
               />
             </div>
           </div>
+          <div className=" overflow-auto">
+            <ul>
+              <CategoryList />
+            </ul>
+          </div>
         </div>
 
-        <div className="w-full h-full flex flex-col gap-3">
-          <div className="bg-white rounded-2xl px-4 py-2">
-            <p>
-              <span className=" text-primary">Section:</span> The Servant is
-              dependent on his Lord
-            </p>
-          </div>
-
-          <div className="bg-white rounded-2xl px-4 py-2 flex flex-col gap-3">
-            <p>
-              <span className="text-primary">icon</span> 1. The Servant is
-              dependent on his Lord #1
-            </p>
-            <p>
-              All human beings depend on Allah for their welfare and prevention
-              of evil in various matters of their religion and world. Allah says
-              (interpretation of the meaning): O mankind, you are those in need
-              of Allah, while Allah is the Free of need, the Praiseworthy.
-            </p>
-            <p>
-              <span className="text-primary">Reference:</span> <br /> Surah
-              Al-Fatir 35:15
-            </p>
-
-            <div>
-              <ul className="flex flex-row gap-3 justify-end items-center">
-                <li>icon</li>
-                <li>icon</li>
-                <li>icon</li>
-                <li>icon</li>
-                <li>icon</li>
-              </ul>
-            </div>
-          </div>
+        <div className="w-full h-[90vh] overflow-auto">
+          <DuaList />
         </div>
       </div>
     </div>
