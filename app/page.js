@@ -1,4 +1,9 @@
-import { LeftNavigation, MainSection, RightSection } from "@/sections";
+import {
+  LeftNavigation,
+  MainSection,
+  RightSection,
+  TopSection,
+} from "@/sections";
 
 export default function Home() {
   return (
@@ -6,11 +11,16 @@ export default function Home() {
       <div className=" w-28">
         <LeftNavigation />
       </div>
-      <div className=" w-full">
-        <MainSection />
-      </div>
-      <div className=" w-80">
-        <RightSection />
+      <div>
+        <TopSection />
+        <div className="flex flex-row gap-2">
+          <div className="w-full">
+            <MainSection />
+          </div>
+          <div className="w-80">
+            <RightSection />
+          </div>
+        </div>
       </div>
     </div>
   );
