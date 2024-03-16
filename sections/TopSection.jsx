@@ -10,7 +10,7 @@ const TopSection = () => {
   };
 
   return (
-    <div className="flex flex-row items-center">
+    <div className="flex flex-row items-center w-full">
       <div className="flex flex-row justify-between items-center h-16 w-full px-2">
         <div>Duas Page</div>
         <div className="relative w-2/6">

@@ -11,7 +11,7 @@ export default function Home() {
       <div className=" w-28">
         <LeftNavigation />
       </div>
-      <div>
+      <div className=" w-full">
         <TopSection />
         <div className="flex flex-row gap-2">
           <div className="w-full">
