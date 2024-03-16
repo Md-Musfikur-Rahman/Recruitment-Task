@@ -59,7 +59,7 @@ const RightSection = () => {
               <p>Language Settings</p>
             </div>
             {isModalOpen && (
-              <div className="modal">
+              <div>
                 <div className="flex flex-row justify-evenly my-2 border-b border-r border-l  py-5 -mt-[6px] rounded-b-md z-0">
                   <p className="bg-primary text-white border py-1 px-4 rounded-md">
                     English
@@ -86,7 +86,7 @@ const RightSection = () => {
               <p>General Settings</p>
             </div>
             {isGModalOpen && (
-              <div className="modal">
+              <div>
                 <div className="flex flex-col gap-3 justify-evenly my-2 border-b border-r border-l  py-5 -mt-[6px] rounded-b-md z-0">
                   <div className="general">
                     <label for="arabic">Show Arabic</label>
@@ -154,7 +154,7 @@ const RightSection = () => {
               <p>Font Settings</p>
             </div>
             {isFontModalOpen && (
-              <div className="modal">
+              <div>
                 <div className="flex flex-col gap-3 justify-evenly my-2 border-b border-r border-l  py-5 -mt-[6px] rounded-b-md z-0">
                   <div className="font">
                     <p>Translation Font Size</p>
@@ -246,7 +246,7 @@ const RightSection = () => {
               <p>Appearance Settings</p>
             </div>
             {isAppearance && (
-              <div className="modal">
+              <div>
                 <div className="flex flex-row justify-evenly my-2 border-b border-r border-l  py-5 -mt-[6px] rounded-b-md z-0">
                   <div className="general">
                     <label
