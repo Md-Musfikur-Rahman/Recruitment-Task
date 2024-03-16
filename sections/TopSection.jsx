@@ -35,7 +35,7 @@ const TopSection = () => {
         </div>
       </div>
 
-      <div className="w-80 flex flex-row justify-end pr-2">
+      <div className="w-auto flex flex-row justify-end pr-2">
         <div className=" relative" onClick={toggleModal}>
           <Image src="/user.png" alt="play" width={50} height={50} />
         </div>

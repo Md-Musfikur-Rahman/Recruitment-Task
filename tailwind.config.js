@@ -7,6 +7,11 @@ module.exports = {
     "./sections/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      sm: "720px",
+      md: "1199px",
+      lg: "1200px",
+    },
     extend: {
       colors: {
         primary: "#1FA45B",
