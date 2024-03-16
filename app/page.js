@@ -13,10 +13,10 @@ export default function Home() {
       <div className="hidden lg:block">
         <Desktop />
       </div>
-      <div className="hidden sm:block">
+      <div className="hidden lg:hidden sm:block">
         <Tablet />
       </div>
-      <div className="sm:hidden">
+      <div className="lg:hidden md:hidden sm:hidden">
         <Mobile />
       </div>
     </>
